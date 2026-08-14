@@ -8,10 +8,10 @@ db.on("connected",()=>{
 db.on("disconnected",()=>{
     console.log("MongoDB disconnected ");
 });
-db.on("erroe",()=>{
+db.on("error",()=>{
     console.log("MongoDB connection error:",error);
 });
 
 
-modeule.exports=db;
+module.exports = db;
 
