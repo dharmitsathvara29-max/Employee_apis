@@ -1,4 +1,4 @@
-const mongoose=require('mongoose');
+const mongoose = require('mongoose');
 const employeeSchema={
     name:{
         type:String,
@@ -18,9 +18,9 @@ const employeeSchema={
         required:true
     },
     salary:{
-        typr:String,
+        type:String,
         required:true
     }
 }
 const Employee=mongoose.model('Employee', employeeSchema);
-modeule.exports=Employee;
+module.exports=Employee;
